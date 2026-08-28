@@ -1,5 +1,5 @@
 header {
-    background-color: aquamarine;
+    background-color: #ff69b4;
     color: #000000;
     text-align: center;
     max-width: 800px;
@@ -8,7 +8,7 @@ header {
 }
 
 main {
-    background-color: #FFFFFF;
+    background-color: #fff0f5;
     color: #000000;
     max-width: 800px;
     margin: 0 auto;
@@ -17,11 +17,14 @@ main {
 
 article { 
     display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 img {
     width: 80px;
     height: 80px;
+    object-fit: cover;
 }
 
 .artigo-autor {
